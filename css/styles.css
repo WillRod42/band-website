@@ -5,9 +5,55 @@ body {
 main {
   width: 60%;
   margin: auto;
+  padding: 3em;
 }
 
 h1 {
   text-align: center;
   font-size: 3em;
+}
+
+h2 {
+  color: rgb(214, 214, 214);
+  font-size: 1.5em;
+}
+
+#about {
+  text-align: center;
+  margin-top: 5em;
+  
+}
+
+.sidebar {
+  float: right;
+  background-color: #8f826a;
+  border: 1px solid black;
+  margin: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  height: 650px;
+}
+
+#members {
+  display: inline-block;
+}
+
+#members h2 {
+  margin-top: 0;
+}
+
+#members ul {
+  list-style-type: none;
+}
+
+.img-right {
+  float: right;
+}
+
+.img-left {
+  float: left;
+}
+
+p {
+  clear: left;
 }
